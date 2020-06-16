@@ -1,8 +1,6 @@
 var board = [0,0,0,0,0,0,0,0,0]
 
-// this is new change monty
-//What is a win
-// Horizontal
+
 function hwin (board) {
   for (i = 0; i <= 6; i += 3) {
     if (board[i] == board[i+1] &&

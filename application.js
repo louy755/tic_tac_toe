@@ -1,4 +1,7 @@
 var board = [0,0,0,0,0,0,0,0,0]
+
+
+
 // hello from monty
 function hwin (board) {
   for (i = 0; i <= 6; i += 3) {

@@ -1,7 +1,6 @@
 var board = [0,0,0,0,0,0,0,0,0]
 
 //What is a win
-// this is new changes for monty
 // Horizontal
 function hwin (board) {
   for (i = 0; i <= 6; i += 3) {
